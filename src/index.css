@@ -226,12 +226,13 @@ button:hover {
 .movie-banner {
   width: 100%;
   max-width: 1200px;
-  margin: 30px auto;
+  margin: 20px auto;
   min-height: 520px;
   padding: 60px 40px 40px 40px;
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .movie-banner::after {
   content: "";
@@ -411,8 +412,8 @@ button:hover {
  
  .input:focus ~ label, input:valid ~ label {
   transform: translateY(-50%) scale(0.8);
-  background-color: #212121;
-  padding: 0 .2em;
+  background-color: var(--primary);
+  padding: 0 .3em;
   color: var(--secondary);
  }
 
